@@ -9,15 +9,13 @@ ul,li {
 }
 
 /* === HEADER === */
-.contener {
-    width: 1440px;
-    margin: 0 auto;
-
-}
-.header-contener{
-    width: 1440px;
+.container {
+    width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
+
+}
+.header-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -61,6 +59,7 @@ ul,li {
     color: #2e2f42;
     letter-spacing: 0.02em;
     line-height: 1.5;
+    padding: 24px 0;
 }
 .header-navigation-list-text:hover {
     color: #404bbf;
