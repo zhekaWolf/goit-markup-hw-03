@@ -101,10 +101,13 @@ ul,li {
 
 /* === HERO === */
 
-
+.hero-container{
+  
+}
 .hero {
     
     background-color: #2e2f42;
+    padding: 188px 0;
  
 }
 
@@ -116,7 +119,7 @@ ul,li {
     line-height: 1.07;
     letter-spacing: 0.02em;
      text-align: center;
-    width: 496px;
+    max-width: 496px;
     height: 120px;
     margin-bottom: 48px;
       
@@ -131,11 +134,10 @@ ul,li {
     letter-spacing: 0.04em;
     cursor: pointer;
     border-radius: 4px;
-    width: 169px;
+    min-width: 169px;
     height: 56px;
+    display: block;
     border: none;
-    padding: 16px 32px;
-    margin-bottom: 188px;
     
 }
 .hero__button:hover {
@@ -150,23 +152,32 @@ ul,li {
     
 
 
-.contener-features__list{
+.features__contener {
     
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
     
 .features {
-  /* ... */
+  padding: 120px 0;
 }
 
 .features__list {
     display: flex;
-    justify-content: center;
-    margin-bottom: 120px;
+    gap: 24px;
     }
 
 .features__item {
-    width:  264px;
-    height:  104px;
+    width: calc((100% - 72px) / 4);
 }
 
 .features__item-title {
