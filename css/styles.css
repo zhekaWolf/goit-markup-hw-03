@@ -26,12 +26,9 @@ ul,li {
 .header-navigation {
     display: flex;
     align-items: center;
+    margin-right: 76px;
 }
-.header-navigation-logo {
-    display: flex;
-    align-items: center;
-    
-}
+
 
 .header-navigation-list {
     display: flex;
