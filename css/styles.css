@@ -26,19 +26,25 @@ ul,li {
 .header-navigation {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 100%;
 }
 .header-navigation-logo {
     display: flex;
     align-items: center;
-    margin-right: 76px;
+    
 }
 
 .header-navigation-list {
     display: flex;
-    gap: 40px;
     
+    
+}
+
+.header-navigation-list li {
+    margin-right: 40px;
+}
+
+.header-navigation-list li:last-child {
+    margin-right: 0;
 }
 
 .header-navigation-logo-first-logo {
@@ -49,6 +55,7 @@ ul,li {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px;
 }
 .header-navigation-logo-italic {
     color: #2e2f42;
