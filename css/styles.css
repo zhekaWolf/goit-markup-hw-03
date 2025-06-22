@@ -14,14 +14,32 @@ ul,li {
     margin: 0 auto;
 
 }
+.header-contener{
+    width: 1440px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+.header-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
 .header-navigation-logo {
     display: flex;
     align-items: center;
+    margin-right: 76px;
 }
 
 .header-navigation-list {
     display: flex;
-    gap: 32px;
+    gap: 40px;
     
 }
 
@@ -49,6 +67,15 @@ ul,li {
 }
 .header-navigation-list-text:focus {
     color: #404bbf;
+}
+
+.header-address {
+    display: flex;
+}
+
+.header-address-list {
+    display: flex;
+    gap: 40px;
 }
 
 .header-address-text {
